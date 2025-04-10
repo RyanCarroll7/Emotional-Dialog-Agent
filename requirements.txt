@@ -1,0 +1,4 @@
+pip:
+    openai
+    deepface
+    tf-keras
