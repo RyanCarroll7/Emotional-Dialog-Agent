@@ -8,7 +8,7 @@ def analyze_facial_emotion(cap: cv2.VideoCapture, filename: str) -> dict[str, np
     if not cap.isOpened():
         raise IOError("Cannot open camera")
     # Capture the image (twice ensures we get an unbuffered frame)
-    captured, image = cap.read()
+    cap.read()
     captured, image = cap.read()
     # Check if image is captured correctly
     if not captured:
