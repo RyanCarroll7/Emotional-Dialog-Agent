@@ -2,7 +2,7 @@ import time
 import cv2
 import numpy as np
 from camera_input import analyze_facial_emotion
-import msvcrt
+import keyboard
 
 
 if __name__ == "__main__":
@@ -22,11 +22,10 @@ if __name__ == "__main__":
         print("Captured image and analyzed emotions:")
         print("\t" + "\n\t".join([f"{k}: {v:.2f}" for k, v in analysis.items()]))
         analyses.append(analysis)
-        wait_time = 1  # seconds
         start_time = time.time()
         key_pressed = False
-        while time.time() - start_time < wait_time:
-            if msvcrt.kbhit() and msvcrt.getch().isspace():
+        while time.time() - start_time < 1:
+            if keyboard.is_pressed('space'):
                 key_pressed = True
                 break
         if key_pressed:
@@ -38,4 +37,5 @@ if __name__ == "__main__":
     print("Average analysis:")
     for key, value in avg_analysis.items():
         print(f"\t{key}: {value:.2f}")
+    cv2.destroyAllWindows()
     cap.release()

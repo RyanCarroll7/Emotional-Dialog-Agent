@@ -1,4 +1,4 @@
-pip:
-    openai
-    deepface
-    tf-keras
+openai
+deepface
+tf-keras
+keyboard
