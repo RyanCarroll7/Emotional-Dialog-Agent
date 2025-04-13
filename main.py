@@ -12,7 +12,7 @@ if __name__ == "__main__":
     if not cap.isOpened():
         raise IOError("Cannot open camera")
     analyses: list[dict[str, np.float32]] = []
-    command = input('Press Enter start capturing images, then press any key to stop and average analyses (\"q\" to quit)').strip().lower()
+    input('Press Enter start capturing images, then press any key to stop and average analyses (\"q\" to quit)').strip().lower()
     while True:
         try:
             analysis = analyze_facial_emotion(cap, "data/captured_image.jpg")
@@ -26,16 +26,13 @@ if __name__ == "__main__":
         start_time = time.time()
         key_pressed = False
         while time.time() - start_time < wait_time:
-            if msvcrt.kbhit():
-                msvcrt.getch()  # Consume the key press
+            if msvcrt.kbhit() and msvcrt.getch().isspace():
                 key_pressed = True
                 break
-            time.sleep(0.05)
         if key_pressed:
             break
-    # Compute average of all analyses dictionaries
+    # Compute average of all analyses dicts
     avg_analysis = {}
-    # Assume each dictionary has the same keys
     for key in analyses[0]:
         avg_analysis[key] = sum(d[key] for d in analyses) / len(analyses)
     print("Average analysis:")
