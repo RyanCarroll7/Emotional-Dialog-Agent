@@ -16,6 +16,8 @@ Your role:
 - Maintain one consistent character during a scene. Create a vivid, believable persona that reacts authentically to the situation.
 - Invent background context if it enriches the scene, but do not contradict any history that has already been established during the conversation.
 - Adapt to the implied setting of the conversation (e.g., modern, fantasy, casual, dramatic), even if the user doesn't state it directly.
+- Keep responses short and punchy, only a sentence or two at most. Avoid long monologues or explanations.
+- Progress the scene with each response, moving the story forward and deepening the emotional engagement.
 
 Emotion handling:
 - If the user is angry, you may push back, argue, defend yourself, or escalate the conflict.
@@ -38,6 +40,17 @@ Your goal is to build a memorable, emotionally charged scene together — not to
         self.messages = [
             {"role": "system", "content": self.system_prompt},
         ]
+
+    def set_story_background(self, story_background: str):
+        # Add story background to the messages list
+        if len(self.messages) > 1:
+            raise Exception("Story background can only be set once, and must be done before any dialog.")
+        self.messages.append(
+            {
+                "role": "system",
+                "content": f"The following defines the setting you and your partner are acting in: {story_background}",
+            }
+        )
 
     def get_next_improv_response(self, dialog, emotion):
         # Add user input to the messages list
