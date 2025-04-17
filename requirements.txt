@@ -1,0 +1,4 @@
+openai
+deepface
+tf-keras
+keyboard
