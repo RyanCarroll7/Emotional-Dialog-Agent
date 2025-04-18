@@ -59,7 +59,7 @@ Your goal is to build a memorable, emotionally charged scene together — not to
         )
         # Generate response
         response = self.client.chat.completions.create(
-            model="gpt-4o-mini", messages=self.messages, temperature=1.0
+            model=self.model, messages=self.messages, temperature=1.0
         )
         # Add response response to the messages list
         self.messages.append(
