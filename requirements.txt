@@ -2,3 +2,9 @@ openai
 deepface
 tf-keras
 keyboard
+SpeechRecognition
+torch
+transformers
+pyaudio
+opencv-python
+numpy
