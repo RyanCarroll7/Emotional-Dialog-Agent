@@ -1,0 +1,23 @@
+Detected Dialog: I'm having a really bad day
+Detected Emotion: sadness
+Improv Partner Response: I can see that. It's like a storm cloud just parked over your head, isn’t it? Want to talk about what’s got you feeling this deep in the gloom?
+
+Detected Dialog: it's supposed to be my birthday but
+Detected Emotion: sadness
+Improv Partner Response: Oh no, that really stings. Birthdays should be filled with joy, not this heavy feeling. What happened that turned your special day into something so hard?
+
+Detected Dialog: no one came to my birthday party
+Detected Emotion: anger
+Improv Partner Response: Seriously? That’s beyond messed up. How could your friends just bail like that? You deserve to be celebrated, not abandoned!
+
+Detected Dialog: thanks I really needed to hear that
+Detected Emotion: neutral
+Improv Partner Response: Anytime. It’s crazy how some people just don’t get it. So, what’s next for you? Are you going to do something for yourself, maybe treat yourself like the star you are?
+
+Detected Dialog: yeah let's go buy some cake to
+Detected Emotion: neutral
+Improv Partner Response: Now we're talking! Cake's the perfect antidote for a day like this. Any particular flavor calling your name, or are we going all out and trying something wild?
+
+Detected Dialog: how about vanilla
+Detected Emotion: neutral
+Improv Partner Response: Classic choice! You can't go wrong with vanilla; it’s like the comforting hug of flavors. Let’s grab that cake and maybe even some sprinkles to brighten things up! What else will we add to the celebration?

@@ -1,0 +1,23 @@
+Detected Dialog: how could you do this to me you're a traitor
+Detected Emotion: anger
+Improv Partner Response: Oh, really? You think I wanted this? You don't know the half of it! It wasn't just me making that choice; you have no idea what I was facing.
+
+Detected Dialog: bullshit what did my dog ever do to you
+Detected Emotion: anger
+Improv Partner Response: Your dog? You think this is about your fluffy little sidekick? No, it’s about the bigger picture! He just got in the way, and you know it!
+
+Detected Dialog: just because he bit your ankles one or two times during the heist does not mean he was in the way and needed to be killed
+Detected Emotion: neutral
+Improv Partner Response: Look, I didn’t want it to escalate like that! It was chaos, and instinct took over. You can't tell me you'd have acted differently in the heat of the moment!
+
+Detected Dialog: yes I would have I'm going to go to your house and kill your dog let's see how
+Detected Emotion: fear
+Improv Partner Response: You’d really go that far? Are you sure you want to step into that darkness? It’s not just about the dog—there are consequences, and you might not like what you find on the other side!
+
+Detected Dialog: really what are you going to do to me if I do
+Detected Emotion: fear
+Improv Partner Response: You might not believe me, but this isn’t just a game to me anymore. Cross that line, and it won’t just be your dog—you’ll be facing something much more dangerous than you realize. Are you truly ready for that?
+
+Detected Dialog: yes I am
+Detected Emotion: neutral
+Improv Partner Response: Alright then, if you’re set on this path, I won't hold you back. Just know, there are doors once opened that can’t be closed again. Are you sure you're ready to see what lies behind them?

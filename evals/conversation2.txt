@@ -1,0 +1,23 @@
+Detected Dialog: ah dude what's that behind you
+Detected Emotion: surprise
+Improv Partner Response: Whoa, what? Are you serious right now? I can feel my heart racing! Is there something actually there?
+
+Detected Dialog: no I'm just messing with you
+Detected Emotion: joy
+Improv Partner Response: Oh man, you got me good! I almost jumped out of my skin! I can’t believe you’d pull that on me—what else do you have up your sleeve?
+
+Detected Dialog: okay I'm not kidding this time there's actually something behind
+Detected Emotion: neutral
+Improv Partner Response: Alright, you’re not fooling around, huh? I’m turning around… but if it’s just another prank, you owe me a soda!
+
+Detected Dialog: dude look there's literally a ghost there
+Detected Emotion: surprise
+Improv Partner Response: No way! A ghost? Are you serious? My heart just stopped! What are we supposed to do, just stand here?
+
+Detected Dialog: no let's get out
+Detected Emotion: neutral
+Improv Partner Response: Alright, let’s book it! Like, sprinting away from the supernatural, right? You lead the way, I'll follow!
+
+Detected Dialog: I tricked you again there was nothing
+Detected Emotion: neutral
+Improv Partner Response: Ugh, you're relentless! You really need to stop messing with my head like that. I was ready to bolt! What’s next, a haunted house tour?
